@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    perspective: 10px;
+}
+
+.container{
+    transform-style: preserve-3d;
+}
+
+
+.fore{
+    transform: translateZ(-20px);
+    scale: 3;
+    object-fit: fill;
+
+}
+.back{
+    transform: translateZ(-40px);
+    scale: 5.1;
+    object-fit: fill;
+}
+
+
